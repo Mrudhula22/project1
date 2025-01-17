@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us - MS Fashion Hub</title>
+<style>
+input
+{
+	width:50%
+}
+table
+{
+	background-color:black;
+	color:yellow;
+	width:100%;
+	height:10%;
+}
+#d1
+{
+	color:aqua;
+}
+input[type="text"]
+{
+	border-color:black;
+	border-radius:5px;
+	border:2px solid;
+}
+select
+{
+	width:50%;
+	background-color:lavender;
+	color:black;
+	border:2px solid;
+}
+a
+{
+	font:5px;
+}	
+input[type="email"]
+{
+	border-radius:5px;
+	border-color:green;
+	border:2px solid;
+	width:50%;
+}
+label
+{
+	color:green;
+}
+textarea
+{
+	width:50%;
+	border-radius:5px;
+	border:2px solid;
+}
+fieldset
+{
+	width:50%;
+}
+button:hover
+{
+	background-color:green;
+}
+h1
+{
+	font-size:16px;
+}
+</style>
+<script>
+function f1()
+{
+	alert("we will connect you soon");
+}
+</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+	<table>
+	</tr>
+	<td align="center">CONTACT US ANY TIME</td>
+	</tr>
+	</table>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2 id="d1" align="center">Contact MS Fashion Hub</h2>
+            <p>If you have any questions or need assistance, we're here to help! Use the contact form below or reach us via email or phone.</p>
+
+            <!-- Contact Form -->
+	<fieldset align="center">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+	<br>
+<br>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+			<br>
+			<br>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" placeholder="Your Phone (Optional)">
+			<br>
+<br>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="sales">Sales & Products</option>
+                        <option value="returns">Returns & Exchanges</option>
+                    </select>
+	<br>
+	<br>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+	<br>
+<br>
+                </div>
+		<center>
+                <button type="submit" align="center" onclick="f1()">Submit</button></center>
+            </form>
+		</fieldset>
+
+            <!-- Contact Information -->
+            <div class="contact-info" align="center">
+                <h3>Other Ways to Reach Us:</h3>
+                <p><strong>Email: <a href="mailto:support@msfashionhub.com">support@msfashionhub.com</a></p>
+                <p><strong>Sales Inquiries: <a href="mailto:sales@msfashionhub.com">sales@msfashionhub.com</a></p>
+                <p><strong>Returns & Exchanges:</strong> <a href="mailto:returns@msfashionhub.com">returns@msfashionhub.com</a></p>
+                <p><strong>Phone:<a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+                <p><strong>Address: MS Fashion Hub, 123 Fashion Street, New York, NY 10001, USA</p>
+                <p><strong>Customer Service Hours:Monday - Friday: 9:00 AM - 6:00 PM (EST)</p>
+	<br>
+<br>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" align="center">
+            <p>&copy; 2025 MS Fashion Hub | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
